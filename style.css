@@ -1,0 +1,266 @@
+.cal{
+    
+    position: relative;
+    width: 428px;
+    height: 926px;
+    background-color: #151515;
+    border: 10px solid rgba(51, 51, 51, 0.6);
+    box-shadow: 0px 4px 85px 42px rgba(0, 0, 0, 0.2);
+    border-radius: 3opx;
+}
+.ac-outside{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 16px;
+    top: 410px;
+    background: #333333;
+    border: 3px solid #333333;
+    border-radius: 150px;
+    
+}
+.ac,.division2,.percentage,.seven-inside,.eight-inside,.nine-inside,.four-inside,.five-inside,.six-inside,.one-inside,.two-inside,.three-inside,.zero-inside,.point-inside{
+   position: relative;
+    
+    /* left: 30px; */
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 51px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 15px;
+
+
+   
+}
+
+.percentage-outside{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 220px;
+    top: 410px;
+    background: #333333;
+    border: 3px solid #333333;
+    border-radius: 150px;
+}
+.percentage-outside2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 118px;
+    top: 410px;
+    background: #333333;
+    border: 3px solid #333333;
+    border-radius: 150px; 
+}
+
+.division-outside-layer{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 322px;
+    top: 410px;
+    background: radial-gradient(213.48% 213.48% at 0% -32.02%, #FAFF00 0%, #FF00F5 100%);
+    border-radius: 150px;
+}
+
+.eight{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    left: 118px;
+    top: 512px;
+    height: 90px;
+    background: #333333;
+    border: 3px solid #333333;
+    box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22);
+    border-radius: 150px; 
+}
+.seven{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    left:16px;
+    top: 512px;
+    height: 90px;
+    background: #333333;
+    border: 3px solid #333333;
+    box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22);
+    border-radius: 150px; 
+}
+.nine{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    left:220px;
+    top: 512px;
+    height: 90px;
+    background: #333333;
+    border: 3px solid #333333;
+    box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22);
+    border-radius: 150px; 
+}
+.multiply{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 322px;
+    top: 510px;
+    background: radial-gradient(213.48% 213.48% at 0% -32.02%, #FAFF00 0%, #FF00F5 100%);
+    border-radius: 150px;
+}
+.four{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    left:16px;
+    top: 614px;
+    height: 90px;
+    background: #333333;
+    border: 3px solid #333333;
+    box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22);
+    border-radius: 150px; 
+}
+.five{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    left:118px;
+    top: 614px;
+    height: 90px;
+    background: #333333;
+    border: 3px solid #333333;
+    box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22);
+    border-radius: 150px; 
+}
+.six{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    left:220px;
+    top: 614px;
+    height: 90px;
+    background: #333333;
+    border: 3px solid #333333;
+    box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22);
+    border-radius: 150px; 
+}
+.subtract{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 322px;
+    top: 614px;
+    background: radial-gradient(213.48% 213.48% at 0% -32.02%, #FAFF00 0%, #FF00F5 100%);
+    border-radius: 150px;
+}
+.one{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    left:16px;
+    top: 716px;
+    height: 90px;
+    background: #333333;
+    border: 3px solid #333333;
+    box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22);
+    border-radius: 150px; 
+}
+.two{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    left:118px;
+    top: 716px;
+    height: 90px;
+    background: #333333;
+    border: 3px solid #333333;
+    box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22);
+    border-radius: 150px; 
+}
+.three{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    left:220px;
+    top: 716px;
+    height: 90px;
+    background: #333333;
+    border: 3px solid #333333;
+    box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22);
+    border-radius: 150px; 
+}
+.add{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 322px;
+    top: 716px;
+    background: radial-gradient(213.48% 213.48% at 0% -32.02%, #FAFF00 0%, #FF00F5 100%);
+    border-radius: 150px;
+}
+.zero{
+    box-sizing: border-box;
+    position: absolute;
+    width: 192px;
+    left:16px;
+    top: 818px;
+    height: 90px;
+    background: #333333;
+    border: 3px solid #333333;
+    box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22);
+    border-radius: 150px; 
+}
+.point{
+    box-sizing: border-box;
+    position: absolute;
+    width: 90px;
+    left:220px;
+    top: 818px;
+    height: 90px;
+    background: #333333;
+    border: 3px solid #333333;
+    box-shadow: inset 4px 1px 17px 3px rgba(0, 0, 0, 0.22);
+    border-radius: 150px; 
+}
+.equal{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 322px;
+    top: 818px;
+    background: radial-gradient(213.48% 213.48% at 0% -32.02%, #FAFF00 0%, #FF00F5 100%);
+    border-radius: 150px;
+}
+
+/* .division2{
+    position: absolute;
+    width: 62px;
+    height: 51px;
+    left: 132px;
+    top: 429px;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 51px;
+    color: #ffff;
+    border: 1px solid wheat;
+} */
+/* .percentage{
+    position: absolute;
+    width: 28px;
+    height: 51px;
+    left: 251px;
+    top: 429px;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 51px;
+    color: #ffff;
+    border: 1px solid wheat;
+}
+.division{
+    
+} */
