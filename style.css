@@ -1,12 +1,34 @@
+/* .wrapper{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+     display: flex;
+    align-items: center;
+    justify-content: center; 
+} */
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,242,143,1) 0%, rgba(0,212,255,1) 100%);
+}
+.screen{
+    width:100%;
+    height:40%;
+    font-weight: 400;
+    font-size: 75px;  
+    color: #ffff;
+    border: 2px solid white;
+}
 .cal{
-    
-    position: relative;
+  position: relative;
+  margin-top: 100px;
+    left: 50%;
+     right: 50%; 
     width: 428px;
     height: 926px;
     background-color: #151515;
     border: 10px solid rgba(51, 51, 51, 0.6);
     box-shadow: 0px 4px 85px 42px rgba(0, 0, 0, 0.2);
-    border-radius: 3opx;
+    border-radius: 30px;
 }
 .ac-outside{
     box-sizing: border-box;
@@ -20,6 +42,10 @@
     border-radius: 150px;
     
 }
+.ac-outside:hover{
+    color: #FAFF00;
+    
+}
 .ac,.division2,.percentage,.seven-inside,.eight-inside,.nine-inside,.four-inside,.five-inside,.six-inside,.one-inside,.two-inside,.three-inside,.zero-inside,.point-inside{
    position: relative;
     
@@ -29,10 +55,38 @@
     line-height: 51px;
     color: #ffff;
     text-align: center;
-    margin-top: 15px;
-
-
-   
+    margin-top: 15px; 
+    cursor: pointer;
+}
+.ac:hover{
+    color: rgb(96, 94, 94);
+}
+.division,.add-inside{
+    position: relative;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 75px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 7px;
+}
+.multiply-inside,.subtract-inside{
+    position: relative;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 75px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 2px;
+}
+.equal-inside{
+    position: relative;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 75px;
+    color: #ffff;
+    text-align: center;
+    margin-top: 4px;
 }
 
 .percentage-outside{
@@ -264,3 +318,49 @@
 .division{
     
 } */
+.zero:hover{
+    border: 4px solid rgb(13, 199, 236);
+
+}
+.point:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.nine:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.eight:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.seven:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.six:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.five:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.four:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.three:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.two:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.one:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.percentage-outside2:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.ac-outside:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.percentage-outside:hover{
+    border: 4px solid rgb(13, 199, 236);
+}
+.equal:hover{
+    background: radial-gradient(213.48% 213.48% at 0% -32.02%, #FAFF00 0%, #0fa6d9 100%);
+}
