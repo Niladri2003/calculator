@@ -18,12 +18,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,242,143,1) 0%, rg
     color: #ffff;
     border: 2px solid white;
     word-wrap: break-word;
-    overflow: scroll;
-    white-space: nowrap;
+/*     overflow: scroll;
+    white-space: nowrap; */
 }
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
-}
+} */
 .cal{
   position: relative;
   margin-top: 100px;
